@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="money">Cash Master</h1>
+    <div class="container"  >
+        <div id="half-width-left" style="background-color:yellow">
+            <img src="download.jpg" alt="">
+
+        </div>
+        <div id="half-width-right" style="background-color:#F8F8F8">
+            <P style="text-align:center;">Income</P>
+                <label for="">Income</label>
+                <input id="income-field"type="text">
+                
+                <p>Expenses</p>
+                <label for="">Food</label>
+                <input id="food-field"type="text"><br>
+                <label for="">Rent</label>
+                <input id="rent-field"type="text"><br>
+                <label for="">cloth</label>
+                <input id="cloth-field"type="text"><br>
+                <button id="calculate-btn">calculate</button>
+                <p>Total Expenses:<span id="expense-total">00</span></p>
+                <p>Balance:<span id="balance-total">0</span></p>
+                <input id="save-field" class="w-9/12 block mb-2 px-3" type="text" name=""
+                        >%
+                        <button id="save-btn"
+                        class="bg-amber-600 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-lg">Deposit</button>
+                <p>Saving amount:<span id="save-amount">0</span></p>
+                <p>Remaining balance:<span>0</span></p>
+            
+
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
